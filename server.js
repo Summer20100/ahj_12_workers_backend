@@ -66,6 +66,6 @@ app.use(async (ctx) => {
 
 app.use(router.routes()).use(router.allowedMethods());
 
-const port = process.env.PORT || 7080;
+const port = process.env.PORT || 7070;
 const server = http.createServer(app.callback())
 server.listen( port , () => console.log('server started'));
