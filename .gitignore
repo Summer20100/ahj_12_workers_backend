@@ -1,7 +1,7 @@
 dist
 doc
 .git-credentials
-.yarn
+./yarn
 
 # Logs
 logs
